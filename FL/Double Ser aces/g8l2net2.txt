@@ -1,0 +1,1102 @@
+Training over 8 global epochs
+Training over 2 local epochs
+model:		 network2
+dataset:	 mnist
+batch_size:	 64
+Num of clients:	 16
+Num of groups:	 8
+running training global epoch0
+running training on group0
+running training for the data of client0
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.317990	Time: 7.500s (0.117s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.298220	Time: 7.238s (0.113s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.218030	Time: 7.353s (0.115s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.999180	Time: 7.485s (0.117s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.614240	Time: 7.397s (0.116s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.637470	Time: 7.456s (0.116s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.401370	Time: 7.481s (0.117s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.392510	Time: 7.433s (0.116s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.357010	Time: 7.658s (0.120s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.152070	Time: 7.576s (0.118s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.040750	Time: 7.453s (0.116s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 1.286020	Time: 7.547s (0.118s/item) [64.000]
+
+running training for the data of client1
+Train Epoch: 0 [0/3712 (0%)]	Loss: 1.119030	Time: 7.649s (0.120s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 1.405270	Time: 7.635s (0.119s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 1.228890	Time: 7.615s (0.119s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.040290	Time: 7.588s (0.119s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.102760	Time: 7.676s (0.120s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.152130	Time: 7.693s (0.120s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.104530	Time: 7.653s (0.120s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.250860	Time: 7.656s (0.120s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.161620	Time: 7.712s (0.120s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.966150	Time: 7.837s (0.122s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.025440	Time: 7.638s (0.119s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 1.136500	Time: 7.749s (0.121s/item) [64.000]
+
+running training on group1
+running training for the data of client2
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.305820	Time: 9.125s (0.143s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.292500	Time: 9.327s (0.146s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.185230	Time: 9.167s (0.143s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 2.068940	Time: 9.369s (0.146s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.616830	Time: 9.290s (0.145s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.455580	Time: 9.327s (0.146s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.352310	Time: 9.296s (0.145s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.355730	Time: 9.438s (0.147s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.002680	Time: 9.332s (0.146s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.263440	Time: 9.301s (0.145s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.002560	Time: 9.325s (0.146s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 1.157230	Time: 9.299s (0.145s/item) [64.000]
+
+running training for the data of client3
+Train Epoch: 0 [0/3712 (0%)]	Loss: 1.265790	Time: 9.389s (0.147s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.940050	Time: 9.366s (0.146s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.970100	Time: 9.316s (0.146s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.231530	Time: 9.632s (0.150s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.185150	Time: 9.673s (0.151s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.859720	Time: 9.829s (0.154s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.071290	Time: 9.733s (0.152s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.861320	Time: 9.762s (0.153s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.822840	Time: 9.785s (0.153s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.739060	Time: 10.534s (0.165s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.932760	Time: 9.884s (0.154s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.770520	Time: 9.958s (0.156s/item) [64.000]
+
+running training on group2
+running training for the data of client4
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.309770	Time: 9.916s (0.155s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.298240	Time: 9.833s (0.154s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.223170	Time: 9.829s (0.154s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 2.151460	Time: 9.934s (0.155s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.944510	Time: 10.029s (0.157s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.759920	Time: 9.925s (0.155s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.219700	Time: 9.945s (0.155s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.325210	Time: 9.974s (0.156s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.029340	Time: 9.931s (0.155s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.390930	Time: 9.821s (0.153s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.312120	Time: 9.917s (0.155s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 1.257590	Time: 9.890s (0.155s/item) [64.000]
+
+running training for the data of client5
+Train Epoch: 0 [0/3712 (0%)]	Loss: 1.190840	Time: 9.878s (0.154s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 1.182910	Time: 9.910s (0.155s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 1.061240	Time: 9.934s (0.155s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.034230	Time: 9.917s (0.155s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.902420	Time: 10.014s (0.156s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.796400	Time: 9.921s (0.155s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.814680	Time: 10.043s (0.157s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.964040	Time: 10.026s (0.157s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.824050	Time: 10.006s (0.156s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.852720	Time: 9.952s (0.156s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.683510	Time: 10.347s (0.162s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.542650	Time: 10.085s (0.158s/item) [64.000]
+
+running training on group3
+running training for the data of client6
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.306070	Time: 9.881s (0.154s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.285040	Time: 9.819s (0.153s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.240070	Time: 9.891s (0.155s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 2.114330	Time: 9.820s (0.153s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.603250	Time: 10.609s (0.166s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.419050	Time: 9.884s (0.154s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.356510	Time: 9.795s (0.153s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.423640	Time: 9.899s (0.155s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.427110	Time: 9.925s (0.155s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.034360	Time: 10.170s (0.159s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.819390	Time: 9.987s (0.156s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.907960	Time: 9.768s (0.153s/item) [64.000]
+
+running training for the data of client7
+Train Epoch: 0 [0/3712 (0%)]	Loss: 1.210080	Time: 9.855s (0.154s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.933390	Time: 9.859s (0.154s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.956200	Time: 11.607s (0.181s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.795850	Time: 9.814s (0.153s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.920340	Time: 9.850s (0.154s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.935420	Time: 9.880s (0.154s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.126890	Time: 9.946s (0.155s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.814640	Time: 9.873s (0.154s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.865060	Time: 10.086s (0.158s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.713270	Time: 10.238s (0.160s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.845840	Time: 10.290s (0.161s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.897140	Time: 10.295s (0.161s/item) [64.000]
+
+running training on group4
+running training for the data of client8
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.314690	Time: 10.516s (0.164s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.291870	Time: 10.733s (0.168s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.246330	Time: 10.710s (0.167s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 2.006620	Time: 10.558s (0.165s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.577780	Time: 10.608s (0.166s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.484960	Time: 10.632s (0.166s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.348450	Time: 10.672s (0.167s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.756200	Time: 10.654s (0.166s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.429480	Time: 10.746s (0.168s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.324230	Time: 10.747s (0.168s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.971120	Time: 13.200s (0.206s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 1.130820	Time: 10.849s (0.170s/item) [64.000]
+
+running training for the data of client9
+Train Epoch: 0 [0/3712 (0%)]	Loss: 1.226070	Time: 10.752s (0.168s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 1.263000	Time: 10.716s (0.167s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 1.012190	Time: 10.684s (0.167s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.235370	Time: 10.673s (0.167s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.088040	Time: 10.737s (0.168s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.119770	Time: 10.808s (0.169s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.150130	Time: 10.760s (0.168s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.227590	Time: 10.677s (0.167s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.973670	Time: 10.829s (0.169s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.174620	Time: 10.710s (0.167s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.002270	Time: 10.835s (0.169s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 1.124650	Time: 10.716s (0.167s/item) [64.000]
+
+running training on group5
+running training for the data of client10
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.319220	Time: 10.545s (0.165s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.272230	Time: 10.574s (0.165s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.245710	Time: 10.523s (0.164s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 2.059300	Time: 10.712s (0.167s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.510840	Time: 10.950s (0.171s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.392210	Time: 10.496s (0.164s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.441360	Time: 10.679s (0.167s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.256120	Time: 10.547s (0.165s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.467550	Time: 10.669s (0.167s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.317760	Time: 10.515s (0.164s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.173420	Time: 10.698s (0.167s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 1.119340	Time: 10.700s (0.167s/item) [64.000]
+
+running training for the data of client11
+Train Epoch: 0 [0/3712 (0%)]	Loss: 1.419180	Time: 10.617s (0.166s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 1.104270	Time: 10.521s (0.164s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 1.206520	Time: 10.783s (0.168s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.861690	Time: 10.779s (0.168s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.199860	Time: 10.767s (0.168s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.965830	Time: 10.630s (0.166s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.339730	Time: 10.575s (0.165s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.987660	Time: 10.664s (0.167s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.129270	Time: 10.665s (0.167s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.822810	Time: 10.644s (0.166s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.072870	Time: 10.683s (0.167s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.930240	Time: 10.594s (0.166s/item) [64.000]
+
+running training on group6
+running training for the data of client12
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.311000	Time: 10.917s (0.171s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.279220	Time: 11.372s (0.178s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.229850	Time: 11.136s (0.174s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 2.098870	Time: 11.088s (0.173s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.854440	Time: 10.913s (0.171s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.404160	Time: 11.708s (0.183s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.254910	Time: 11.027s (0.172s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.548890	Time: 10.980s (0.172s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.147520	Time: 10.947s (0.171s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.378060	Time: 11.058s (0.173s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.308660	Time: 10.912s (0.171s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 1.014890	Time: 10.936s (0.171s/item) [64.000]
+
+running training for the data of client13
+Train Epoch: 0 [0/3712 (0%)]	Loss: 1.139610	Time: 11.076s (0.173s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 1.160830	Time: 11.061s (0.173s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 1.111390	Time: 11.028s (0.172s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.169630	Time: 10.958s (0.171s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.398610	Time: 10.930s (0.171s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.111120	Time: 11.034s (0.172s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.078120	Time: 11.112s (0.174s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.115550	Time: 11.030s (0.172s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.797320	Time: 10.979s (0.172s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.924730	Time: 11.037s (0.172s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.958240	Time: 11.006s (0.172s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.973780	Time: 10.980s (0.172s/item) [64.000]
+
+running training on group7
+running training for the data of client14
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.304670	Time: 10.929s (0.171s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.277730	Time: 10.844s (0.169s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.212450	Time: 10.852s (0.170s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 2.081980	Time: 10.871s (0.170s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.781010	Time: 10.832s (0.169s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.573550	Time: 10.980s (0.172s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.365660	Time: 10.882s (0.170s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.351500	Time: 10.887s (0.170s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 1.109870	Time: 10.886s (0.170s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.191960	Time: 10.881s (0.170s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.946110	Time: 10.873s (0.170s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.943420	Time: 10.953s (0.171s/item) [64.000]
+
+running training for the data of client15
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.664160	Time: 11.033s (0.172s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.973520	Time: 11.018s (0.172s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.963080	Time: 11.043s (0.173s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.705390	Time: 10.964s (0.171s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.196490	Time: 11.299s (0.177s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.743090	Time: 11.239s (0.176s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.550720	Time: 11.524s (0.180s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.921330	Time: 11.428s (0.179s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.861870	Time: 11.532s (0.180s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.608460	Time: 11.626s (0.182s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 1.129850	Time: 11.550s (0.180s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.663090	Time: 11.587s (0.181s/item) [64.000]
+
+evaluation
+Accuracy: 41/64 (64%) 	Time / item: 0.0799s
+Accuracy: 468/704 (66%) 	Time / item: 0.0785s
+Accuracy: 874/1344 (65%) 	Time / item: 0.0806s
+Accuracy: 1301/1984 (66%) 	Time / item: 0.0804s
+Accuracy: 1713/2624 (65%) 	Time / item: 0.0802s
+Accuracy: 2142/3264 (66%) 	Time / item: 0.0801s
+Accuracy: 2573/3904 (66%) 	Time / item: 0.0801s
+Accuracy: 3008/4544 (66%) 	Time / item: 0.0801s
+Accuracy: 3469/5184 (67%) 	Time / item: 0.0801s
+Accuracy: 3912/5824 (67%) 	Time / item: 0.0801s
+Accuracy: 4355/6464 (67%) 	Time / item: 0.0801s
+Accuracy: 4794/7104 (67%) 	Time / item: 0.0801s
+Accuracy: 5258/7744 (68%) 	Time / item: 0.0801s
+Accuracy: 5732/8384 (68%) 	Time / item: 0.0801s
+Accuracy: 6184/9024 (69%) 	Time / item: 0.0801s
+Accuracy: 6636/9664 (69%) 	Time / item: 0.0801s
+TEST Accuracy: 6860.99951171875/9984 (68.72%) 	Time /item: 0.0802s 	Time w. argmax /item: 0.0807s [64.000]
+
+running training global epoch1
+running training on group0
+running training for the data of client0
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.982230	Time: 12.761s (0.199s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.815110	Time: 12.761s (0.199s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.663040	Time: 12.909s (0.202s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.906190	Time: 12.822s (0.200s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.748350	Time: 12.916s (0.202s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.749510	Time: 12.832s (0.200s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.881340	Time: 15.913s (0.249s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.736380	Time: 12.854s (0.201s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.599620	Time: 13.097s (0.205s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.890740	Time: 12.985s (0.203s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.695040	Time: 12.905s (0.202s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.683440	Time: 13.016s (0.203s/item) [64.000]
+
+running training for the data of client1
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.414990	Time: 13.081s (0.204s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.718980	Time: 13.011s (0.203s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.747280	Time: 12.974s (0.203s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.574640	Time: 12.789s (0.200s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.722690	Time: 13.011s (0.203s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.494760	Time: 13.005s (0.203s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.326920	Time: 13.093s (0.205s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.639490	Time: 12.917s (0.202s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.646510	Time: 12.842s (0.201s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.542920	Time: 12.909s (0.202s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.710850	Time: 12.803s (0.200s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.466790	Time: 12.943s (0.202s/item) [64.000]
+
+running training on group1
+running training for the data of client2
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.725180	Time: 13.058s (0.204s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.859470	Time: 13.151s (0.205s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.666350	Time: 13.055s (0.204s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.781950	Time: 13.130s (0.205s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.762300	Time: 13.170s (0.206s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.914420	Time: 13.052s (0.204s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.410370	Time: 17.307s (0.270s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.781220	Time: 13.134s (0.205s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.641710	Time: 13.073s (0.204s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.687610	Time: 13.049s (0.204s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.732550	Time: 13.277s (0.207s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.897140	Time: 13.270s (0.207s/item) [64.000]
+
+running training for the data of client3
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.622690	Time: 13.366s (0.209s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.526900	Time: 13.200s (0.206s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.628450	Time: 13.292s (0.208s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.561200	Time: 12.997s (0.203s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.600820	Time: 13.044s (0.204s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.255370	Time: 13.129s (0.205s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.652550	Time: 13.383s (0.209s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.471050	Time: 13.304s (0.208s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.642330	Time: 13.285s (0.208s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.512040	Time: 13.292s (0.208s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.571650	Time: 13.131s (0.205s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.252590	Time: 13.232s (0.207s/item) [64.000]
+
+running training on group2
+running training for the data of client4
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.961390	Time: 13.455s (0.210s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.678720	Time: 13.272s (0.207s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.551960	Time: 13.397s (0.209s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.626550	Time: 13.354s (0.209s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.654640	Time: 13.527s (0.211s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.585710	Time: 13.463s (0.210s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.528140	Time: 13.521s (0.211s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.590700	Time: 13.441s (0.210s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.514690	Time: 13.476s (0.211s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.490610	Time: 13.294s (0.208s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.622640	Time: 13.320s (0.208s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.520880	Time: 13.413s (0.210s/item) [64.000]
+
+running training for the data of client5
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.493340	Time: 13.297s (0.208s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.504790	Time: 13.432s (0.210s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.585960	Time: 13.425s (0.210s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.452600	Time: 13.596s (0.212s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.411010	Time: 13.365s (0.209s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.641260	Time: 13.336s (0.208s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.462570	Time: 13.621s (0.213s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.427770	Time: 14.008s (0.219s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.563820	Time: 15.943s (0.249s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.417470	Time: 13.558s (0.212s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.401050	Time: 13.570s (0.212s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.599570	Time: 13.423s (0.210s/item) [64.000]
+
+running training on group3
+running training for the data of client6
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.826320	Time: 13.548s (0.212s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 1.120920	Time: 13.592s (0.212s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.725640	Time: 13.472s (0.210s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.590100	Time: 13.685s (0.214s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.779890	Time: 13.423s (0.210s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.540700	Time: 13.583s (0.212s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.510690	Time: 13.696s (0.214s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 1.057160	Time: 13.604s (0.213s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.650690	Time: 13.414s (0.210s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.533880	Time: 13.550s (0.212s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.747720	Time: 13.575s (0.212s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.515910	Time: 13.722s (0.214s/item) [64.000]
+
+running training for the data of client7
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.623920	Time: 13.689s (0.214s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.666960	Time: 13.673s (0.214s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.724130	Time: 13.634s (0.213s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.742790	Time: 13.509s (0.211s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.661690	Time: 13.667s (0.214s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.372970	Time: 13.505s (0.211s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.540660	Time: 13.608s (0.213s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.620820	Time: 13.509s (0.211s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.594870	Time: 14.663s (0.229s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.635280	Time: 13.598s (0.212s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.596420	Time: 13.781s (0.215s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.351390	Time: 13.527s (0.211s/item) [64.000]
+
+running training on group4
+running training for the data of client8
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.817880	Time: 13.899s (0.217s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.887480	Time: 13.673s (0.214s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.704400	Time: 13.793s (0.216s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.653960	Time: 13.707s (0.214s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.734840	Time: 13.603s (0.213s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.388470	Time: 13.732s (0.215s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.726580	Time: 13.788s (0.215s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.733900	Time: 13.777s (0.215s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.498310	Time: 13.684s (0.214s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.621510	Time: 13.885s (0.217s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.695360	Time: 13.804s (0.216s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.363060	Time: 13.697s (0.214s/item) [64.000]
+
+running training for the data of client9
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.724330	Time: 13.898s (0.217s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.526010	Time: 13.767s (0.215s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.795600	Time: 13.638s (0.213s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.395570	Time: 13.695s (0.214s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.706520	Time: 13.682s (0.214s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.637990	Time: 13.828s (0.216s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.647270	Time: 13.823s (0.216s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.473870	Time: 13.876s (0.217s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.729540	Time: 13.689s (0.214s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.397960	Time: 13.820s (0.216s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.672290	Time: 13.691s (0.214s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.620180	Time: 13.873s (0.217s/item) [64.000]
+
+running training on group5
+running training for the data of client10
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.990520	Time: 13.870s (0.217s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.648980	Time: 13.995s (0.219s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.564100	Time: 13.832s (0.216s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.649750	Time: 13.820s (0.216s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.663110	Time: 13.938s (0.218s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.600300	Time: 13.965s (0.218s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.745860	Time: 14.009s (0.219s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.614900	Time: 13.811s (0.216s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.506760	Time: 13.997s (0.219s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.569510	Time: 14.061s (0.220s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.651330	Time: 13.921s (0.218s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.579990	Time: 13.813s (0.216s/item) [64.000]
+
+running training for the data of client11
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.528350	Time: 14.044s (0.219s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.557780	Time: 13.851s (0.216s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.737460	Time: 13.917s (0.217s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.949600	Time: 13.767s (0.215s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.715170	Time: 13.841s (0.216s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.568870	Time: 13.993s (0.219s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.510980	Time: 13.869s (0.217s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.552710	Time: 13.838s (0.216s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.724870	Time: 14.124s (0.221s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.827050	Time: 13.948s (0.218s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.688100	Time: 13.827s (0.216s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.638040	Time: 13.959s (0.218s/item) [64.000]
+
+running training on group6
+running training for the data of client12
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.737420	Time: 13.896s (0.217s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.790590	Time: 14.014s (0.219s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.395710	Time: 13.952s (0.218s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.755560	Time: 13.933s (0.218s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.502690	Time: 13.949s (0.218s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.806350	Time: 13.994s (0.219s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.472650	Time: 14.041s (0.219s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.667740	Time: 13.985s (0.219s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.358580	Time: 14.017s (0.219s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.772200	Time: 13.932s (0.218s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.489250	Time: 13.903s (0.217s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.718150	Time: 14.011s (0.219s/item) [64.000]
+
+running training for the data of client13
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.664550	Time: 14.234s (0.222s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.612060	Time: 13.992s (0.219s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.465860	Time: 14.803s (0.231s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.586910	Time: 13.851s (0.216s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.457680	Time: 14.572s (0.228s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.509220	Time: 14.169s (0.221s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.710260	Time: 13.999s (0.219s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.567790	Time: 14.005s (0.219s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.497180	Time: 14.092s (0.220s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.608470	Time: 14.150s (0.221s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.421020	Time: 14.031s (0.219s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.466770	Time: 13.994s (0.219s/item) [64.000]
+
+running training on group7
+running training for the data of client14
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.797340	Time: 14.259s (0.223s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.749250	Time: 14.237s (0.222s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.457590	Time: 14.188s (0.222s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.688870	Time: 13.937s (0.218s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.945320	Time: 14.872s (0.232s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.416270	Time: 14.778s (0.231s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.577430	Time: 14.955s (0.234s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.613280	Time: 14.995s (0.234s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.417110	Time: 15.122s (0.236s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.615440	Time: 15.052s (0.235s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.826430	Time: 15.040s (0.235s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.337870	Time: 15.470s (0.242s/item) [64.000]
+
+running training for the data of client15
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.434290	Time: 15.512s (0.242s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.725550	Time: 15.264s (0.239s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.559380	Time: 15.278s (0.239s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.790080	Time: 15.485s (0.242s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.525720	Time: 15.432s (0.241s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.661840	Time: 15.436s (0.241s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.366090	Time: 15.525s (0.243s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.631680	Time: 15.417s (0.241s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.502710	Time: 15.433s (0.241s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.712610	Time: 15.426s (0.241s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.516640	Time: 15.460s (0.242s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.664130	Time: 15.713s (0.246s/item) [64.000]
+
+evaluation
+Accuracy: 50/64 (78%) 	Time / item: 0.1045s
+Accuracy: 543/704 (77%) 	Time / item: 0.1036s
+Accuracy: 1032/1344 (77%) 	Time / item: 0.1038s
+Accuracy: 1531/1984 (77%) 	Time / item: 0.1042s
+Accuracy: 2019/2624 (77%) 	Time / item: 0.1045s
+Accuracy: 2514/3264 (77%) 	Time / item: 0.1045s
+Accuracy: 3024/3904 (77%) 	Time / item: 0.1046s
+Accuracy: 3515/4544 (77%) 	Time / item: 0.1047s
+Accuracy: 4032/5184 (78%) 	Time / item: 0.1047s
+Accuracy: 4540/5824 (78%) 	Time / item: 0.1047s
+Accuracy: 5044/6464 (78%) 	Time / item: 0.1047s
+Accuracy: 5544/7104 (78%) 	Time / item: 0.1047s
+Accuracy: 6056/7744 (78%) 	Time / item: 0.1048s
+Accuracy: 6575/8384 (78%) 	Time / item: 0.1048s
+Accuracy: 7080/9024 (78%) 	Time / item: 0.1048s
+Accuracy: 7587/9664 (79%) 	Time / item: 0.1049s
+TEST Accuracy: 7839.00048828125/9984 (78.52%) 	Time /item: 0.1050s 	Time w. argmax /item: 0.1055s [64.000]
+
+running training global epoch2
+running training on group0
+running training for the data of client0
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.605270	Time: 15.546s (0.243s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.450720	Time: 15.752s (0.246s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.662690	Time: 15.727s (0.246s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.622520	Time: 15.903s (0.248s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.549810	Time: 15.684s (0.245s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.602430	Time: 15.763s (0.246s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.596520	Time: 15.839s (0.247s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.436150	Time: 16.168s (0.253s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.617130	Time: 16.379s (0.256s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.601720	Time: 16.252s (0.254s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.563090	Time: 16.459s (0.257s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.584510	Time: 16.230s (0.254s/item) [64.000]
+
+running training for the data of client1
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.735720	Time: 16.003s (0.250s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.597000	Time: 25.979s (0.406s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.551190	Time: 15.672s (0.245s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.557510	Time: 15.906s (0.249s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.455450	Time: 15.785s (0.247s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.447980	Time: 15.792s (0.247s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.705700	Time: 16.009s (0.250s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.556100	Time: 15.873s (0.248s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.618640	Time: 15.814s (0.247s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.552120	Time: 15.841s (0.248s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.442010	Time: 15.877s (0.248s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.431060	Time: 15.874s (0.248s/item) [64.000]
+
+running training on group1
+running training for the data of client2
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.735590	Time: 17.858s (0.279s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.536350	Time: 15.907s (0.249s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.465670	Time: 16.122s (0.252s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.589590	Time: 16.006s (0.250s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.468580	Time: 15.926s (0.249s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.538020	Time: 16.092s (0.251s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.709160	Time: 16.021s (0.250s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.531860	Time: 15.930s (0.249s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.446630	Time: 15.837s (0.247s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.593210	Time: 15.922s (0.249s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.413650	Time: 15.961s (0.249s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.532910	Time: 15.854s (0.248s/item) [64.000]
+
+running training for the data of client3
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.277200	Time: 16.012s (0.250s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.599880	Time: 15.956s (0.249s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.423330	Time: 15.911s (0.249s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.013070	Time: 15.969s (0.250s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.726590	Time: 15.989s (0.250s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.481850	Time: 15.967s (0.249s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.185410	Time: 16.160s (0.252s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.444420	Time: 16.103s (0.252s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.255100	Time: 16.112s (0.252s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.576950	Time: 15.810s (0.247s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.462370	Time: 16.152s (0.252s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.321080	Time: 16.117s (0.252s/item) [64.000]
+
+running training on group2
+running training for the data of client4
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.725670	Time: 16.225s (0.254s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.692800	Time: 16.064s (0.251s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.789280	Time: 16.204s (0.253s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.616740	Time: 15.926s (0.249s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.373790	Time: 16.271s (0.254s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.539110	Time: 15.971s (0.250s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.671560	Time: 16.228s (0.254s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.663580	Time: 16.116s (0.252s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.683130	Time: 16.036s (0.251s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.571920	Time: 16.036s (0.251s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.369910	Time: 16.381s (0.256s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.533800	Time: 16.187s (0.253s/item) [64.000]
+
+running training for the data of client5
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.619420	Time: 16.085s (0.251s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.420450	Time: 15.975s (0.250s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.423100	Time: 15.965s (0.249s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.511760	Time: 18.036s (0.282s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.543320	Time: 16.200s (0.253s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.476730	Time: 16.077s (0.251s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.632200	Time: 16.468s (0.257s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.407520	Time: 16.066s (0.251s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.404740	Time: 15.980s (0.250s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.485480	Time: 16.259s (0.254s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.512270	Time: 16.271s (0.254s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.486040	Time: 15.964s (0.249s/item) [64.000]
+
+running training on group3
+running training for the data of client6
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.739810	Time: 16.288s (0.254s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.634940	Time: 16.177s (0.253s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.631290	Time: 16.186s (0.253s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.525940	Time: 16.276s (0.254s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.703860	Time: 16.222s (0.253s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.833930	Time: 16.135s (0.252s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.760700	Time: 16.315s (0.255s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.665980	Time: 16.322s (0.255s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.619380	Time: 16.292s (0.255s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.516810	Time: 16.497s (0.258s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.677080	Time: 16.429s (0.257s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.828720	Time: 16.223s (0.253s/item) [64.000]
+
+running training for the data of client7
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.480120	Time: 16.361s (0.256s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.515870	Time: 16.234s (0.254s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.518740	Time: 16.310s (0.255s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.543980	Time: 16.454s (0.257s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.445410	Time: 16.364s (0.256s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.890800	Time: 16.487s (0.258s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.460440	Time: 16.236s (0.254s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.517180	Time: 16.559s (0.259s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.519510	Time: 16.408s (0.256s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.493530	Time: 16.377s (0.256s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.436020	Time: 16.579s (0.259s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.865660	Time: 16.314s (0.255s/item) [64.000]
+
+running training on group4
+running training for the data of client8
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.698840	Time: 16.499s (0.258s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.396800	Time: 16.660s (0.260s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.527820	Time: 16.622s (0.260s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.556400	Time: 16.593s (0.259s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.655070	Time: 16.373s (0.256s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.719630	Time: 16.441s (0.257s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.695560	Time: 16.550s (0.259s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.379390	Time: 16.411s (0.256s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.467190	Time: 16.573s (0.259s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.653250	Time: 16.621s (0.260s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.654390	Time: 16.510s (0.258s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.700270	Time: 16.350s (0.255s/item) [64.000]
+
+running training for the data of client9
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.554410	Time: 16.417s (0.257s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.502100	Time: 16.473s (0.257s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.639630	Time: 16.401s (0.256s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.410200	Time: 16.379s (0.256s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.521680	Time: 16.425s (0.257s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.677950	Time: 16.392s (0.256s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.513800	Time: 16.417s (0.257s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.489160	Time: 16.533s (0.258s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.627640	Time: 16.643s (0.260s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.405110	Time: 16.568s (0.259s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.499570	Time: 16.492s (0.258s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.611940	Time: 16.375s (0.256s/item) [64.000]
+
+running training on group5
+running training for the data of client10
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.653540	Time: 16.664s (0.260s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.477880	Time: 16.650s (0.260s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.425230	Time: 16.724s (0.261s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.458710	Time: 16.621s (0.260s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.570650	Time: 16.563s (0.259s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.650600	Time: 16.660s (0.260s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.614960	Time: 16.858s (0.263s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.452710	Time: 16.679s (0.261s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.428370	Time: 16.503s (0.258s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.448500	Time: 16.643s (0.260s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.582900	Time: 16.575s (0.259s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.615390	Time: 16.593s (0.259s/item) [64.000]
+
+running training for the data of client11
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.792730	Time: 16.695s (0.261s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.643160	Time: 16.532s (0.258s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.614680	Time: 16.608s (0.260s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.604670	Time: 16.711s (0.261s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.515400	Time: 16.980s (0.265s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.384660	Time: 16.806s (0.263s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.443930	Time: 17.030s (0.266s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.369180	Time: 16.653s (0.260s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.357350	Time: 16.604s (0.259s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.392310	Time: 16.678s (0.261s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.369740	Time: 16.792s (0.262s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.376530	Time: 16.618s (0.260s/item) [64.000]
+
+running training on group6
+running training for the data of client12
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.432060	Time: 16.788s (0.262s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.745000	Time: 16.859s (0.263s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.743880	Time: 16.694s (0.261s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.703960	Time: 16.752s (0.262s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.705850	Time: 16.711s (0.261s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.531050	Time: 16.650s (0.260s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.410650	Time: 16.783s (0.262s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.737310	Time: 16.650s (0.260s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.689050	Time: 16.749s (0.262s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.703610	Time: 16.560s (0.259s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.747990	Time: 16.657s (0.260s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.519790	Time: 16.519s (0.258s/item) [64.000]
+
+running training for the data of client13
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.794470	Time: 16.944s (0.265s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.632260	Time: 16.696s (0.261s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.815910	Time: 16.661s (0.260s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.553740	Time: 16.635s (0.260s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.523840	Time: 16.757s (0.262s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.556710	Time: 16.446s (0.257s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.607090	Time: 16.756s (0.262s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.506840	Time: 16.743s (0.262s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.525130	Time: 16.616s (0.260s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.438100	Time: 16.619s (0.260s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.411500	Time: 16.633s (0.260s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.445640	Time: 16.808s (0.263s/item) [64.000]
+
+running training on group7
+running training for the data of client14
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.641080	Time: 16.974s (0.265s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.597200	Time: 16.742s (0.262s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.560920	Time: 16.814s (0.263s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.546370	Time: 16.990s (0.265s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.631820	Time: 16.696s (0.261s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.346670	Time: 16.826s (0.263s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.614270	Time: 16.887s (0.264s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.594360	Time: 16.840s (0.263s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.553430	Time: 16.893s (0.264s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.506560	Time: 16.957s (0.265s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.529570	Time: 17.050s (0.266s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.365930	Time: 17.048s (0.266s/item) [64.000]
+
+running training for the data of client15
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.491980	Time: 16.997s (0.266s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.617840	Time: 16.699s (0.261s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.457530	Time: 16.916s (0.264s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.335810	Time: 17.054s (0.266s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.777200	Time: 16.779s (0.262s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.687740	Time: 16.874s (0.264s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.499980	Time: 16.936s (0.265s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.555750	Time: 16.905s (0.264s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.450150	Time: 16.950s (0.265s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.280400	Time: 16.930s (0.265s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.702090	Time: 16.975s (0.265s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.659540	Time: 16.915s (0.264s/item) [64.000]
+
+evaluation
+Accuracy: 52/64 (81%) 	Time / item: 0.1104s
+Accuracy: 559/704 (79%) 	Time / item: 0.1116s
+Accuracy: 1056/1344 (79%) 	Time / item: 0.1118s
+Accuracy: 1562/1984 (79%) 	Time / item: 0.1123s
+Accuracy: 2058/2624 (78%) 	Time / item: 0.1125s
+Accuracy: 2563/3264 (79%) 	Time / item: 0.1125s
+Accuracy: 3080/3904 (79%) 	Time / item: 0.1125s
+Accuracy: 3582/4544 (79%) 	Time / item: 0.1125s
+Accuracy: 4108/5184 (79%) 	Time / item: 0.1125s
+Accuracy: 4620/5824 (79%) 	Time / item: 0.1125s
+Accuracy: 5129/6464 (79%) 	Time / item: 0.1125s
+Accuracy: 5640/7104 (79%) 	Time / item: 0.1125s
+Accuracy: 6167/7744 (80%) 	Time / item: 0.1125s
+Accuracy: 6708/8384 (80%) 	Time / item: 0.1125s
+Accuracy: 7228/9024 (80%) 	Time / item: 0.1125s
+Accuracy: 7750/9664 (80%) 	Time / item: 0.1125s
+TEST Accuracy: 8010.0/9984 (80.23%) 	Time /item: 0.1124s 	Time w. argmax /item: 0.1130s [64.000]
+
+running training global epoch3
+running training on group0
+running training for the data of client0
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.562610	Time: 16.996s (0.266s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.542310	Time: 17.105s (0.267s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.361320	Time: 17.129s (0.268s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.320810	Time: 16.969s (0.265s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.239140	Time: 16.916s (0.264s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.375640	Time: 17.160s (0.268s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.360700	Time: 16.906s (0.264s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.425210	Time: 16.829s (0.263s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.307460	Time: 16.832s (0.263s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.267790	Time: 16.896s (0.264s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.188730	Time: 16.943s (0.265s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.382000	Time: 16.988s (0.265s/item) [64.000]
+
+running training for the data of client1
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.438310	Time: 16.937s (0.265s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.453470	Time: 17.079s (0.267s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.501150	Time: 16.950s (0.265s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.313520	Time: 16.857s (0.263s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.390450	Time: 17.035s (0.266s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.211320	Time: 17.025s (0.266s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.468190	Time: 17.096s (0.267s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.483080	Time: 16.899s (0.264s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.410180	Time: 17.004s (0.266s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.069060	Time: 17.056s (0.266s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.165630	Time: 17.050s (0.266s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.145660	Time: 16.884s (0.264s/item) [64.000]
+
+running training on group1
+running training for the data of client2
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.455000	Time: 17.069s (0.267s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.394150	Time: 17.147s (0.268s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.413140	Time: 17.163s (0.268s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.345840	Time: 17.127s (0.268s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.151640	Time: 17.125s (0.268s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.121840	Time: 17.378s (0.272s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.134790	Time: 17.183s (0.268s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.103330	Time: 17.297s (0.270s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.113790	Time: 17.220s (0.269s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.227710	Time: 17.901s (0.280s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.163270	Time: 17.817s (0.278s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.117070	Time: 17.452s (0.273s/item) [64.000]
+
+running training for the data of client3
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.303500	Time: 18.007s (0.281s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.140550	Time: 16.954s (0.265s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.157470	Time: 16.966s (0.265s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.120740	Time: 17.179s (0.268s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.155000	Time: 17.102s (0.267s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.102260	Time: 17.156s (0.268s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.116500	Time: 17.253s (0.270s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.069680	Time: 17.192s (0.269s/item) [64.000]
+⚠️ #12 loss:3072249.75 RETRY...
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.115510	Time: 17.210s (0.269s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.096310	Time: 17.103s (0.267s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.097620	Time: 17.149s (0.268s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.074810	Time: 17.056s (0.267s/item) [64.000]
+
+running training on group2
+running training for the data of client4
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.628470	Time: 17.162s (0.268s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.400360	Time: 17.339s (0.271s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.445490	Time: 17.264s (0.270s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.396040	Time: 17.212s (0.269s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.248690	Time: 17.284s (0.270s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.353400	Time: 17.255s (0.270s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.378080	Time: 17.442s (0.273s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.372280	Time: 17.549s (0.274s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.399910	Time: 17.431s (0.272s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.392140	Time: 17.222s (0.269s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.211880	Time: 17.118s (0.267s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.327840	Time: 17.100s (0.267s/item) [64.000]
+
+running training for the data of client5
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.378200	Time: 17.263s (0.270s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.411920	Time: 17.266s (0.270s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.321390	Time: 17.377s (0.272s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.527300	Time: 17.031s (0.266s/item) [64.000]
+⚠️ #35 loss:6830191.5 RETRY...
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.218540	Time: 17.356s (0.271s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.117960	Time: 17.415s (0.272s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.138570	Time: 17.692s (0.276s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.235430	Time: 17.286s (0.270s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.091380	Time: 17.619s (0.275s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.109070	Time: 17.272s (0.270s/item) [64.000]
+⚠️ #37 loss:10624206.0 RETRY...
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.264450	Time: 17.486s (0.273s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.092570	Time: 17.354s (0.271s/item) [64.000]
+
+running training on group3
+running training for the data of client6
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.649400	Time: 17.639s (0.276s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.337460	Time: 17.414s (0.272s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.566690	Time: 17.690s (0.276s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.303810	Time: 17.370s (0.271s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.420730	Time: 17.647s (0.276s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.519910	Time: 17.776s (0.278s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.473930	Time: 17.656s (0.276s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.312830	Time: 17.441s (0.273s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.524320	Time: 17.423s (0.272s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.263910	Time: 17.314s (0.271s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.372310	Time: 17.284s (0.270s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.461880	Time: 17.429s (0.272s/item) [64.000]
+
+running training for the data of client7
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.245080	Time: 17.506s (0.274s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.432450	Time: 17.423s (0.272s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.406730	Time: 17.308s (0.270s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.423110	Time: 17.435s (0.272s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.354850	Time: 17.713s (0.277s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.502120	Time: 17.544s (0.274s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.320230	Time: 17.449s (0.273s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.367250	Time: 17.363s (0.271s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.308030	Time: 17.492s (0.273s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.401220	Time: 17.524s (0.274s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.342450	Time: 17.554s (0.274s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.532470	Time: 17.746s (0.277s/item) [64.000]
+
+running training on group4
+running training for the data of client8
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.365840	Time: 17.549s (0.274s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.346500	Time: 17.529s (0.274s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.516700	Time: 17.764s (0.278s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.295560	Time: 17.618s (0.275s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.401350	Time: 17.751s (0.277s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.418540	Time: 17.438s (0.272s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.186240	Time: 17.721s (0.277s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.317330	Time: 17.838s (0.279s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.466560	Time: 17.656s (0.276s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.263010	Time: 17.550s (0.274s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.347530	Time: 17.747s (0.277s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.392060	Time: 17.736s (0.277s/item) [64.000]
+
+running training for the data of client9
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.405090	Time: 17.728s (0.277s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.487690	Time: 17.605s (0.275s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.383360	Time: 17.651s (0.276s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.419960	Time: 17.663s (0.276s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.414730	Time: 17.928s (0.280s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.376860	Time: 17.769s (0.278s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.322740	Time: 17.682s (0.276s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.405850	Time: 17.569s (0.275s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.320940	Time: 17.815s (0.278s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.360550	Time: 17.689s (0.276s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.427480	Time: 17.897s (0.280s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.316940	Time: 17.793s (0.278s/item) [64.000]
+
+running training on group5
+running training for the data of client10
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.574060	Time: 17.765s (0.278s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.286030	Time: 17.737s (0.277s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.567690	Time: 17.714s (0.277s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.555660	Time: 17.673s (0.276s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.396830	Time: 17.630s (0.275s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.293100	Time: 17.813s (0.278s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.502070	Time: 17.788s (0.278s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.153420	Time: 17.762s (0.278s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.194650	Time: 18.044s (0.282s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.084410	Time: 17.868s (0.279s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.161650	Time: 17.729s (0.277s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.268350	Time: 17.933s (0.280s/item) [64.000]
+
+running training for the data of client11
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.363830	Time: 17.822s (0.278s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.172200	Time: 17.890s (0.280s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.073450	Time: 17.930s (0.280s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.101120	Time: 17.929s (0.280s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.082410	Time: 18.062s (0.282s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.153930	Time: 17.994s (0.281s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.177340	Time: 17.879s (0.279s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.101640	Time: 17.871s (0.279s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.060750	Time: 17.668s (0.276s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.079740	Time: 17.775s (0.278s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.070180	Time: 18.765s (0.293s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.166570	Time: 18.014s (0.281s/item) [64.000]
+
+running training on group6
+running training for the data of client12
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.564590	Time: 18.082s (0.283s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.615480	Time: 17.913s (0.280s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.366730	Time: 17.980s (0.281s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.546510	Time: 17.764s (0.278s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.416390	Time: 17.776s (0.278s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.462340	Time: 17.970s (0.281s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.360290	Time: 18.006s (0.281s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.381360	Time: 18.250s (0.285s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.263170	Time: 18.407s (0.288s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.543400	Time: 18.478s (0.289s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.360320	Time: 18.709s (0.292s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.431730	Time: 19.151s (0.299s/item) [64.000]
+
+running training for the data of client13
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.486740	Time: 18.911s (0.295s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.434150	Time: 19.074s (0.298s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.279820	Time: 19.548s (0.305s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.467690	Time: 19.354s (0.302s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.283400	Time: 19.531s (0.305s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.355920	Time: 19.652s (0.307s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.174480	Time: 19.747s (0.309s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.190540	Time: 19.811s (0.310s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.122430	Time: 20.026s (0.313s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.203890	Time: 19.874s (0.311s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.111120	Time: 19.933s (0.311s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.121530	Time: 19.850s (0.310s/item) [64.000]
+
+running training on group7
+running training for the data of client14
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.467350	Time: 19.952s (0.312s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.348980	Time: 20.178s (0.315s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.717780	Time: 20.144s (0.315s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.245360	Time: 20.200s (0.316s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.535340	Time: 20.240s (0.316s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.507460	Time: 20.352s (0.318s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.340010	Time: 20.772s (0.325s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.322900	Time: 20.475s (0.320s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.494840	Time: 20.461s (0.320s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.211700	Time: 20.533s (0.321s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.519630	Time: 20.428s (0.319s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.428890	Time: 20.372s (0.318s/item) [64.000]
+
+running training for the data of client15
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.254450	Time: 20.529s (0.321s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.273950	Time: 20.861s (0.326s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.376730	Time: 20.702s (0.323s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.324680	Time: 20.668s (0.323s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.437580	Time: 20.573s (0.321s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.420150	Time: 20.734s (0.324s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.245760	Time: 20.682s (0.323s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.271410	Time: 20.572s (0.321s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.326160	Time: 20.728s (0.324s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.305600	Time: 20.959s (0.327s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.414680	Time: 20.714s (0.324s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.437400	Time: 20.722s (0.324s/item) [64.000]
+
+evaluation
+Accuracy: 64/64 (100%) 	Time / item: 0.1363s
+Accuracy: 683/704 (97%) 	Time / item: 0.1358s
+Accuracy: 1292/1344 (96%) 	Time / item: 0.1358s
+Accuracy: 1910/1984 (96%) 	Time / item: 0.1358s
+Accuracy: 2526/2624 (96%) 	Time / item: 0.1360s
+Accuracy: 3152/3264 (97%) 	Time / item: 0.1362s
+Accuracy: 3770/3904 (97%) 	Time / item: 0.1364s
+Accuracy: 4387/4544 (97%) 	Time / item: 0.1365s
+Accuracy: 5005/5184 (97%) 	Time / item: 0.1366s
+Accuracy: 5640/5824 (97%) 	Time / item: 0.1367s
+Accuracy: 6263/6464 (97%) 	Time / item: 0.1368s
+Accuracy: 6888/7104 (97%) 	Time / item: 0.1367s
+Accuracy: 7522/7744 (97%) 	Time / item: 0.1367s
+Accuracy: 8152/8384 (97%) 	Time / item: 0.1367s
+Accuracy: 8785/9024 (97%) 	Time / item: 0.1367s
+Accuracy: 9416/9664 (97%) 	Time / item: 0.1367s
+TEST Accuracy: 9721.0/9984 (97.37%) 	Time /item: 0.1367s 	Time w. argmax /item: 0.1373s [64.000]
+
+running training global epoch4
+running training on group0
+running training for the data of client0
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.130090	Time: 20.994s (0.328s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.143510	Time: 20.961s (0.328s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 0.147950	Time: 21.085s (0.329s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 0.258900	Time: 20.957s (0.327s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.081970	Time: 21.021s (0.328s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.064090	Time: 20.879s (0.326s/item) [64.000]
+
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.078350	Time: 21.121s (0.330s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.105350	Time: 21.023s (0.328s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.088760	Time: 20.988s (0.328s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.174060	Time: 20.990s (0.328s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.063090	Time: 20.964s (0.328s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.070290	Time: 21.001s (0.328s/item) [64.000]
+
+running training for the data of client1
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.051640	Time: 21.248s (0.332s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 0.124200	Time: 21.687s (0.339s/item) [64.000]
