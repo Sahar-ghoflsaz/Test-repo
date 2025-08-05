@@ -1,0 +1,673 @@
+nohup: ignoring input
+Training over 4 global epochs
+Training over 4 local epochs
+model:		 network2
+dataset:	 mnist
+batch_size:	 64
+Num of clients:	 16
+Num of groups:	 8
+/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/aiortc/rtcdtlstransport.py:13: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography import x509
+running training global epoch0
+start the processes
+initial local
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+initial local
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+initial local
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+initial local
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+initial local
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+initial local
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+initial local
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+initial local
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+running training on group2
+point b
+running training for the data of client4
+model
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+point g
+point h
+running training on group1
+point b
+running training for the data of client2
+model
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+point g
+point h
+running training on group0
+point b
+running training for the data of client0
+model
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+point g
+point h
+running training on group4
+point b
+running training for the data of client8
+model
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+point g
+point h
+running training on group3
+point b
+running training for the data of client6
+model
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+point g
+point h
+running training on group7
+point b
+running training for the data of client14
+model
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+point g
+point h
+running training on group6
+point b
+running training for the data of client12
+model
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+point g
+point h
+running training on group5
+point b
+running training for the data of client10
+model
+tensor([[-0.0250,  0.0464, -0.0368,  ...,  0.0109,  0.0016, -0.0605],
+        [ 0.0527, -0.0273,  0.0106,  ...,  0.0389, -0.0215, -0.0405],
+        [-0.0377, -0.0406,  0.0196,  ..., -0.0543,  0.0115,  0.0311],
+        ...,
+        [ 0.0176,  0.0205, -0.0190,  ..., -0.0102, -0.0418,  0.0373],
+        [ 0.0342, -0.0321, -0.0378,  ..., -0.0429,  0.0395, -0.0355],
+        [-0.0421,  0.0200, -0.0227,  ..., -0.0599, -0.0295, -0.0276]])
+point g
+point h
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.325510	Time: 50.470s (0.789s/item) [64.000]
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.325100	Time: 50.585s (0.790s/item) [64.000]
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.323900	Time: 50.922s (0.796s/item) [64.000]
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.313990	Time: 50.850s (0.795s/item) [64.000]
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.314090	Time: 50.902s (0.795s/item) [64.000]
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.300220	Time: 51.395s (0.803s/item) [64.000]
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.324760	Time: 51.296s (0.801s/item) [64.000]
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.310020	Time: 53.095s (0.830s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.262750	Time: 54.040s (0.844s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.276450	Time: 54.815s (0.856s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.277150	Time: 55.354s (0.865s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.290750	Time: 55.779s (0.872s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.278610	Time: 56.578s (0.884s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.300890	Time: 55.133s (0.861s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.254980	Time: 54.347s (0.849s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.288380	Time: 54.056s (0.845s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.187520	Time: 52.672s (0.823s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.147950	Time: 54.335s (0.849s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.139280	Time: 52.988s (0.828s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.145880	Time: 54.381s (0.850s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.152380	Time: 54.141s (0.846s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.103110	Time: 53.097s (0.830s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.173350	Time: 51.931s (0.811s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.105330	Time: 51.864s (0.810s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.763250	Time: 53.664s (0.839s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.647040	Time: 54.407s (0.850s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.735880	Time: 53.649s (0.838s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.641540	Time: 60.611s (0.947s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.657860	Time: 51.343s (0.802s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.630580	Time: 56.331s (0.880s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.634170	Time: 55.977s (0.875s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.706000	Time: 55.369s (0.865s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.165780	Time: 56.618s (0.885s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.762140	Time: 55.455s (0.866s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.958110	Time: 56.060s (0.876s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.175790	Time: 55.529s (0.868s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.029100	Time: 51.983s (0.812s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.853370	Time: 56.694s (0.886s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.066790	Time: 55.256s (0.863s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 0.937400	Time: 56.435s (0.882s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.915430	Time: 54.179s (0.847s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.955120	Time: 54.968s (0.859s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.798950	Time: 53.417s (0.835s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.758430	Time: 56.383s (0.881s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.903890	Time: 53.722s (0.839s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 1.150200	Time: 54.102s (0.845s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.776540	Time: 54.122s (0.846s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.632550	Time: 53.792s (0.841s/item) [64.000]
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+Train Epoch: 1 [0/3712 (0%)]	Loss: 1.167290	Time: 57.289s (0.895s/item) [64.000]
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.731400	Time: 54.927s (0.858s/item) [64.000]
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.689810	Time: 59.113s (0.924s/item) [64.000]
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.837500	Time: 56.361s (0.881s/item) [64.000]
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.821550	Time: 55.855s (0.873s/item) [64.000]
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.749180	Time: 57.297s (0.895s/item) [64.000]
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.530120	Time: 57.987s (0.906s/item) [64.000]
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.620170	Time: 58.481s (0.914s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.642280	Time: 56.671s (0.885s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.550780	Time: 56.122s (0.877s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.435750	Time: 56.740s (0.887s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.560000	Time: 58.852s (0.920s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.740480	Time: 56.573s (0.884s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.972080	Time: 55.260s (0.863s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.563450	Time: 54.961s (0.859s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.710220	Time: 56.946s (0.890s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.807820	Time: 52.685s (0.823s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.824540	Time: 53.371s (0.834s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.418810	Time: 53.731s (0.840s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.391340	Time: 54.123s (0.846s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.728940	Time: 55.237s (0.863s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.439640	Time: 54.732s (0.855s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.338330	Time: 54.028s (0.844s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.313290	Time: 50.608s (0.791s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 1.078930	Time: 53.787s (0.840s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.995220	Time: 58.987s (0.922s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.427610	Time: 56.481s (0.883s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.359400	Time: 59.531s (0.930s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.703650	Time: 58.228s (0.910s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.417920	Time: 56.483s (0.883s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.357170	Time: 52.595s (0.822s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.468980	Time: 54.166s (0.846s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.661430	Time: 58.546s (0.915s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.569080	Time: 56.192s (0.878s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.419410	Time: 56.240s (0.879s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.270140	Time: 57.994s (0.906s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.387100	Time: 56.145s (0.877s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.577940	Time: 57.764s (0.903s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.791640	Time: 57.827s (0.904s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.532930	Time: 54.697s (0.855s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.715340	Time: 52.860s (0.826s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.631500	Time: 55.278s (0.864s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.508130	Time: 55.271s (0.864s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.817560	Time: 57.662s (0.901s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.465540	Time: 56.361s (0.881s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.362240	Time: 53.810s (0.841s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.284400	Time: 58.641s (0.916s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.378170	Time: 56.358s (0.881s/item) [64.000]
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.425550	Time: 53.573s (0.837s/item) [64.000]
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.541340	Time: 57.775s (0.903s/item) [64.000]
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.480360	Time: 55.393s (0.866s/item) [64.000]
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.487060	Time: 54.090s (0.845s/item) [64.000]
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.164570	Time: 57.217s (0.894s/item) [64.000]
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.434690	Time: 56.841s (0.888s/item) [64.000]
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.200390	Time: 54.097s (0.845s/item) [64.000]
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.276410	Time: 53.945s (0.843s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.184790	Time: 58.748s (0.918s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.250890	Time: 57.550s (0.899s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.232840	Time: 57.319s (0.896s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.476940	Time: 58.124s (0.908s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.678060	Time: 56.107s (0.877s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.397670	Time: 52.731s (0.824s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.419700	Time: 57.211s (0.894s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.347060	Time: 58.543s (0.915s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.107560	Time: 57.023s (0.891s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.164060	Time: 56.948s (0.890s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.447130	Time: 57.267s (0.895s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.153030	Time: 51.795s (0.809s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.439890	Time: 55.511s (0.867s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.490490	Time: 59.316s (0.927s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.183060	Time: 56.681s (0.886s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.164060	Time: 59.687s (0.933s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.184290	Time: 56.716s (0.886s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.251900	Time: 54.832s (0.857s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.757820	Time: 54.042s (0.844s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.536300	Time: 52.804s (0.825s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.476900	Time: 54.949s (0.859s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.347580	Time: 58.020s (0.907s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.288670	Time: 54.136s (0.846s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.178870	Time: 54.710s (0.855s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.369150	Time: 55.709s (0.870s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.387040	Time: 60.097s (0.939s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.490840	Time: 56.093s (0.876s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.122180	Time: 55.335s (0.865s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.420460	Time: 57.122s (0.893s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.534330	Time: 58.326s (0.911s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.247860	Time: 56.755s (0.887s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.390270	Time: 55.045s (0.860s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.375540	Time: 56.508s (0.883s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.281930	Time: 57.199s (0.894s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.641910	Time: 56.600s (0.884s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.333880	Time: 58.515s (0.914s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.374520	Time: 57.083s (0.892s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.566620	Time: 55.856s (0.873s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.233100	Time: 58.714s (0.917s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.166690	Time: 56.957s (0.890s/item) [64.000]
+⚠️ #57 loss:21359848.0 RETRY...
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+
+end train
+
+point h
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.340740	Time: 58.238s (0.910s/item) [64.000]
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.394590	Time: 54.285s (0.848s/item) [64.000]
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.113730	Time: 54.898s (0.858s/item) [64.000]
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.416210	Time: 55.148s (0.862s/item) [64.000]
+
+end train
+
+point h
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.510670	Time: 55.695s (0.870s/item) [64.000]
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.149210	Time: 59.144s (0.924s/item) [64.000]
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.337180	Time: 56.613s (0.885s/item) [64.000]
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.156830	Time: 57.851s (0.904s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.142420	Time: 54.137s (0.846s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.542700	Time: 59.341s (0.927s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.152610	Time: 57.982s (0.906s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.336940	Time: 58.890s (0.920s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.160350	Time: 57.768s (0.903s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.242550	Time: 55.592s (0.869s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.233420	Time: 54.192s (0.847s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.188850	Time: 54.195s (0.847s/item) [64.000]
+Train Epoch: 3 [1280/3712 (34%)]	Loss: 0.099050	Time: 58.275s (0.911s/item) [64.000]
+Train Epoch: 3 [1280/3712 (34%)]	Loss: 0.387850	Time: 57.622s (0.900s/item) [64.000]
+Train Epoch: 3 [1280/3712 (34%)]	Loss: 0.124010	Time: 55.899s (0.873s/item) [64.000]
+Train Epoch: 3 [1280/3712 (34%)]	Loss: 0.372460	Time: 58.436s (0.913s/item) [64.000]
+Train Epoch: 3 [1280/3712 (34%)]	Loss: 0.113600	Time: 53.285s (0.833s/item) [64.000]
+Train Epoch: 3 [1280/3712 (34%)]	Loss: 0.361180	Time: 57.865s (0.904s/item) [64.000]
+Train Epoch: 3 [1280/3712 (34%)]	Loss: 0.097150	Time: 60.427s (0.944s/item) [64.000]
+Train Epoch: 3 [1280/3712 (34%)]	Loss: 0.124400	Time: 55.478s (0.867s/item) [64.000]
+Train Epoch: 3 [1920/3712 (52%)]	Loss: 0.154840	Time: 59.839s (0.935s/item) [64.000]
+Train Epoch: 3 [1920/3712 (52%)]	Loss: 0.477430	Time: 52.745s (0.824s/item) [64.000]
+Train Epoch: 3 [1920/3712 (52%)]	Loss: 0.353690	Time: 54.322s (0.849s/item) [64.000]
+Train Epoch: 3 [1920/3712 (52%)]	Loss: 0.724660	Time: 53.855s (0.841s/item) [64.000]
+Train Epoch: 3 [1920/3712 (52%)]	Loss: 0.133840	Time: 58.041s (0.907s/item) [64.000]
+Train Epoch: 3 [1920/3712 (52%)]	Loss: 0.330220	Time: 55.244s (0.863s/item) [64.000]
+Train Epoch: 3 [1920/3712 (52%)]	Loss: 0.149710	Time: 60.784s (0.950s/item) [64.000]
+Train Epoch: 3 [1920/3712 (52%)]	Loss: 0.135810	Time: 60.943s (0.952s/item) [64.000]
+Train Epoch: 3 [2560/3712 (69%)]	Loss: 0.319050	Time: 54.553s (0.852s/item) [64.000]
+Train Epoch: 3 [2560/3712 (69%)]	Loss: 0.401520	Time: 57.057s (0.892s/item) [64.000]
+Train Epoch: 3 [2560/3712 (69%)]	Loss: 0.435120	Time: 56.766s (0.887s/item) [64.000]
+Train Epoch: 3 [2560/3712 (69%)]	Loss: 0.098120	Time: 60.916s (0.952s/item) [64.000]
+Train Epoch: 3 [2560/3712 (69%)]	Loss: 0.341240	Time: 55.233s (0.863s/item) [64.000]
+Train Epoch: 3 [2560/3712 (69%)]	Loss: 0.423290	Time: 54.200s (0.847s/item) [64.000]
+Train Epoch: 3 [2560/3712 (69%)]	Loss: 0.202530	Time: 57.096s (0.892s/item) [64.000]
+Train Epoch: 3 [2560/3712 (69%)]	Loss: 0.266530	Time: 56.168s (0.878s/item) [64.000]
+Train Epoch: 3 [3200/3712 (86%)]	Loss: 0.270300	Time: 55.651s (0.870s/item) [64.000]
+Train Epoch: 3 [3200/3712 (86%)]	Loss: 0.340110	Time: 59.094s (0.923s/item) [64.000]
+Train Epoch: 3 [3200/3712 (86%)]	Loss: 0.623170	Time: 58.394s (0.912s/item) [64.000]
+Train Epoch: 3 [3200/3712 (86%)]	Loss: 0.251250	Time: 56.031s (0.875s/item) [64.000]
+Train Epoch: 3 [3200/3712 (86%)]	Loss: 0.280550	Time: 55.102s (0.861s/item) [64.000]
+Train Epoch: 3 [3200/3712 (86%)]	Loss: 0.433010	Time: 59.270s (0.926s/item) [64.000]
+Train Epoch: 3 [3200/3712 (86%)]	Loss: 0.138940	Time: 59.481s (0.929s/item) [64.000]
+Train Epoch: 3 [3200/3712 (86%)]	Loss: 0.178500	Time: 56.152s (0.877s/item) [64.000]
+
+end train
+
+ point 3 
+
+local_model 0
+tensor([[-0.0074,  0.0685, -0.0382,  ...,  0.0225,  0.0093, -0.0541],
+        [ 0.0521, -0.0285,  0.0109,  ...,  0.0394, -0.0220, -0.0406],
+        [-0.0249, -0.0152,  0.0350,  ..., -0.0483,  0.0110,  0.0335],
+        ...,
+        [ 0.0176,  0.0221, -0.0057,  ..., -0.0086, -0.0385,  0.0474],
+        [ 0.0235, -0.0439, -0.0396,  ..., -0.0521,  0.0457, -0.0185],
+        [-0.0421,  0.0217, -0.0189,  ..., -0.0624, -0.0294, -0.0294]])
+Process Process-5:
+Traceback (most recent call last):
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "main.py", line 175, in client_train
+    local_model.fc3.weight.data = new_model.fc3.weight.data
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 576, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'Network2' object has no attribute 'fc3'
+
+end train
+
+ point 3 
+
+local_model 0
+tensor([[-0.0124,  0.0649, -0.0316,  ...,  0.0156,  0.0052, -0.0602],
+        [ 0.0519, -0.0284,  0.0105,  ...,  0.0391, -0.0222, -0.0406],
+        [-0.0348, -0.0273,  0.0283,  ..., -0.0486,  0.0098,  0.0380],
+        ...,
+        [ 0.0155,  0.0176, -0.0130,  ..., -0.0088, -0.0323,  0.0589],
+        [ 0.0316, -0.0374, -0.0375,  ..., -0.0623,  0.0430, -0.0150],
+        [-0.0424,  0.0269, -0.0147,  ..., -0.0585, -0.0328, -0.0453]])
+Process Process-6:
+Traceback (most recent call last):
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "main.py", line 175, in client_train
+    local_model.fc3.weight.data = new_model.fc3.weight.data
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 576, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'Network2' object has no attribute 'fc3'
+
+end train
+
+ point 3 
+
+local_model 0
+tensor([[-0.0154,  0.0580, -0.0336,  ...,  0.0159,  0.0066, -0.0591],
+        [ 0.0515, -0.0289,  0.0104,  ...,  0.0387, -0.0228, -0.0411],
+        [-0.0368, -0.0381,  0.0239,  ..., -0.0526,  0.0121,  0.0352],
+        ...,
+        [ 0.0134,  0.0159, -0.0164,  ..., -0.0131, -0.0366,  0.0611],
+        [ 0.0268, -0.0498, -0.0443,  ..., -0.0602,  0.0444, -0.0123],
+        [-0.0428,  0.0196, -0.0225,  ..., -0.0620, -0.0300, -0.0285]])
+Process Process-4:
+Traceback (most recent call last):
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "main.py", line 175, in client_train
+    local_model.fc3.weight.data = new_model.fc3.weight.data
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 576, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'Network2' object has no attribute 'fc3'
+
+end train
+
+ point 3 
+
+local_model 0
+tensor([[-0.0273,  0.0431, -0.0325,  ...,  0.0215,  0.0113, -0.0521],
+        [ 0.0517, -0.0285,  0.0107,  ...,  0.0391, -0.0216, -0.0400],
+        [-0.0311, -0.0256,  0.0304,  ..., -0.0357,  0.0123,  0.0384],
+        ...,
+        [ 0.0128,  0.0153, -0.0203,  ..., -0.0103, -0.0378,  0.0410],
+        [ 0.0269, -0.0461, -0.0460,  ..., -0.0657,  0.0337, -0.0219],
+        [-0.0401,  0.0390, -0.0045,  ..., -0.0584, -0.0330, -0.0415]])
+Process Process-2:
+Traceback (most recent call last):
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "main.py", line 175, in client_train
+    local_model.fc3.weight.data = new_model.fc3.weight.data
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 576, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'Network2' object has no attribute 'fc3'
+
+end train
+
+ point 3 
+
+local_model 0
+tensor([[-0.0142,  0.0639, -0.0395,  ...,  0.0120,  0.0162, -0.0540],
+        [ 0.0514, -0.0290,  0.0106,  ...,  0.0382, -0.0229, -0.0409],
+        [-0.0305, -0.0221,  0.0418,  ..., -0.0625,  0.0031,  0.0313],
+        ...,
+        [ 0.0162,  0.0150, -0.0212,  ..., -0.0061, -0.0284,  0.0493],
+        [ 0.0331, -0.0403, -0.0435,  ..., -0.0579,  0.0413, -0.0207],
+        [-0.0416,  0.0228, -0.0172,  ..., -0.0575, -0.0343, -0.0407]])
+Process Process-8:
+Traceback (most recent call last):
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "main.py", line 175, in client_train
+    local_model.fc3.weight.data = new_model.fc3.weight.data
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 576, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'Network2' object has no attribute 'fc3'
+
+end train
+
+ point 3 
+
+local_model 0
+tensor([[-0.0173,  0.0543, -0.0308,  ...,  0.0167,  0.0011, -0.0681],
+        [ 0.0516, -0.0287,  0.0106,  ...,  0.0386, -0.0226, -0.0407],
+        [-0.0292, -0.0301,  0.0197,  ..., -0.0487,  0.0140,  0.0406],
+        ...,
+        [ 0.0133,  0.0101, -0.0188,  ..., -0.0118, -0.0367,  0.0457],
+        [ 0.0350, -0.0377, -0.0480,  ..., -0.0636,  0.0430, -0.0253],
+        [-0.0416,  0.0209, -0.0223,  ..., -0.0645, -0.0314, -0.0295]])
+Process Process-7:
+Traceback (most recent call last):
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "main.py", line 175, in client_train
+    local_model.fc3.weight.data = new_model.fc3.weight.data
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 576, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'Network2' object has no attribute 'fc3'
+
+end train
+
+ point 3 
+
+local_model 0
+tensor([[-0.0234,  0.0461, -0.0445,  ...,  0.0154, -0.0013, -0.0577],
+        [ 0.0518, -0.0284,  0.0108,  ...,  0.0391, -0.0222, -0.0406],
+        [-0.0313, -0.0320,  0.0189,  ..., -0.0425,  0.0168,  0.0369],
+        ...,
+        [ 0.0181,  0.0173, -0.0191,  ..., -0.0017, -0.0344,  0.0410],
+        [ 0.0307, -0.0393, -0.0395,  ..., -0.0564,  0.0437, -0.0192],
+        [-0.0378,  0.0398, -0.0034,  ..., -0.0612, -0.0284, -0.0505]])
+Process Process-3:
+Traceback (most recent call last):
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "main.py", line 175, in client_train
+    local_model.fc3.weight.data = new_model.fc3.weight.data
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 576, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'Network2' object has no attribute 'fc3'
+
+end train
+
+ point 3 
+
+local_model 0
+tensor([[-0.0156,  0.0553, -0.0397,  ...,  0.0236,  0.0199, -0.0427],
+        [ 0.0516, -0.0284,  0.0106,  ...,  0.0393, -0.0222, -0.0405],
+        [-0.0335, -0.0318,  0.0272,  ..., -0.0374,  0.0170,  0.0435],
+        ...,
+        [ 0.0178,  0.0217, -0.0137,  ..., -0.0085, -0.0170,  0.0588],
+        [ 0.0327, -0.0310, -0.0343,  ..., -0.0765,  0.0340, -0.0098],
+        [-0.0435,  0.0275, -0.0127,  ..., -0.0466, -0.0325, -0.0521]])
+Process Process-9:
+Traceback (most recent call last):
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "main.py", line 175, in client_train
+    local_model.fc3.weight.data = new_model.fc3.weight.data
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 576, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'Network2' object has no attribute 'fc3'
+final list:
+Traceback (most recent call last):
+  File "main.py", line 516, in <module>
+    run(args)
+  File "main.py", line 237, in run
+    temp = copy.deepcopy(list[gepoch * NUM_GROUPS + globalClients])
+  File "<string>", line 2, in __getitem__
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/managers.py", line 834, in _callmethod
+    raise convert_to_error(kind, result)
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/multiprocessing/managers.py", line 254, in serve_client
+    res = function(*args, **kwds)
+IndexError: list index out of range
