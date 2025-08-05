@@ -1,0 +1,6 @@
+Training over 18 epochs
+model:		 network1
+dataset:	 mnist
+batch_size:	 64
+running training on client0
+Train Epoch: 0 [0/3712 (0%)]	Loss: 0.968340	Time: 2.834s (0.044s/item) [64.000]
