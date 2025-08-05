@@ -1,0 +1,27 @@
+nohup: ignoring input
+Training over 2 global epochs
+Training over 2 local epochs
+model:		 network1
+dataset:	 mnist
+batch_size:	 64
+Num of clients:	 8
+Num of groups:	 4
+running training global epoch0
+running training on group0
+running training for the data of client0
+tensor([[ 0.0347,  0.0234, -0.0150,  ..., -0.0346,  0.0162,  0.0172],
+        [ 0.0336,  0.0355, -0.0330,  ...,  0.0228, -0.0343, -0.0141],
+        [ 0.0116,  0.0286, -0.0280,  ...,  0.0351,  0.0220,  0.0315],
+        ...,
+        [-0.0299, -0.0238, -0.0225,  ...,  0.0180,  0.0323,  0.0258],
+        [-0.0309, -0.0131,  0.0249,  ..., -0.0202,  0.0042, -0.0075],
+        [-0.0338, -0.0304,  0.0254,  ..., -0.0071,  0.0097,  0.0300]])
+start train
+/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/aiortc/rtcdtlstransport.py:13: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography import x509
+Train Epoch: 0 [0/7488 (0%)]	Loss: 0.974120	Time: 4.429s (0.069s/item) [64.000]
+Train Epoch: 0 [640/7488 (9%)]	Loss: 0.789480	Time: 4.552s (0.071s/item) [64.000]
+Train Epoch: 0 [1280/7488 (17%)]	Loss: 0.516390	Time: 4.586s (0.072s/item) [64.000]
+Train Epoch: 0 [1920/7488 (26%)]	Loss: 0.448110	Time: 4.642s (0.073s/item) [64.000]
+Train Epoch: 0 [2560/7488 (34%)]	Loss: 0.438240	Time: 4.679s (0.073s/item) [64.000]
+Train Epoch: 0 [3200/7488 (43%)]	Loss: 0.332100	Time: 4.670s (0.073s/item) [64.000]

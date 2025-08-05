@@ -1,0 +1,50 @@
+nohup: ignoring input
+Training over 4 global epochs
+Training over 4 local epochs
+model:		 network2
+dataset:	 mnist
+batch_size:	 64
+Num of clients:	 16
+Num of groups:	 8
+running training global epoch0
+running training on group0
+running training for the data of client0
+tensor([[ 0.0205,  0.0494,  0.0514,  ..., -0.0063, -0.0454,  0.0273],
+        [ 0.0464,  0.0082,  0.0275,  ..., -0.0454,  0.0028,  0.0584],
+        [-0.0023,  0.0186,  0.0560,  ..., -0.0163,  0.0577, -0.0145],
+        ...,
+        [-0.0361,  0.0348,  0.0029,  ...,  0.0261,  0.0338,  0.0115],
+        [ 0.0498, -0.0185,  0.0532,  ...,  0.0529, -0.0090,  0.0201],
+        [ 0.0590, -0.0498,  0.0104,  ..., -0.0133, -0.0409,  0.0218]])
+start train
+/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/aiortc/rtcdtlstransport.py:13: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography import x509
+Train Epoch: 0 [0/3712 (0%)]	Loss: 2.318280	Time: 11.292s (0.176s/item) [64.000]
+Train Epoch: 0 [640/3712 (17%)]	Loss: 2.274600	Time: 11.564s (0.181s/item) [64.000]
+Train Epoch: 0 [1280/3712 (34%)]	Loss: 2.176810	Time: 11.505s (0.180s/item) [64.000]
+Train Epoch: 0 [1920/3712 (52%)]	Loss: 1.707640	Time: 11.730s (0.183s/item) [64.000]
+Train Epoch: 0 [2560/3712 (69%)]	Loss: 1.228460	Time: 11.617s (0.182s/item) [64.000]
+Train Epoch: 0 [3200/3712 (86%)]	Loss: 0.893180	Time: 11.767s (0.184s/item) [64.000]
+
+end train
+start train
+Train Epoch: 1 [0/3712 (0%)]	Loss: 0.858340	Time: 11.810s (0.185s/item) [64.000]
+Train Epoch: 1 [640/3712 (17%)]	Loss: 0.846790	Time: 11.927s (0.186s/item) [64.000]
+Train Epoch: 1 [1280/3712 (34%)]	Loss: 0.706370	Time: 11.840s (0.185s/item) [64.000]
+Train Epoch: 1 [1920/3712 (52%)]	Loss: 0.581060	Time: 11.956s (0.187s/item) [64.000]
+Train Epoch: 1 [2560/3712 (69%)]	Loss: 0.492080	Time: 11.984s (0.187s/item) [64.000]
+Train Epoch: 1 [3200/3712 (86%)]	Loss: 0.236400	Time: 11.923s (0.186s/item) [64.000]
+
+end train
+start train
+Train Epoch: 2 [0/3712 (0%)]	Loss: 0.331870	Time: 12.053s (0.188s/item) [64.000]
+Train Epoch: 2 [640/3712 (17%)]	Loss: 0.289020	Time: 11.852s (0.185s/item) [64.000]
+Train Epoch: 2 [1280/3712 (34%)]	Loss: 0.362020	Time: 12.028s (0.188s/item) [64.000]
+Train Epoch: 2 [1920/3712 (52%)]	Loss: 0.277830	Time: 12.078s (0.189s/item) [64.000]
+Train Epoch: 2 [2560/3712 (69%)]	Loss: 0.280900	Time: 12.105s (0.189s/item) [64.000]
+Train Epoch: 2 [3200/3712 (86%)]	Loss: 0.158120	Time: 12.043s (0.188s/item) [64.000]
+
+end train
+start train
+Train Epoch: 3 [0/3712 (0%)]	Loss: 0.133370	Time: 12.169s (0.190s/item) [64.000]
+Train Epoch: 3 [640/3712 (17%)]	Loss: 0.158720	Time: 12.087s (0.189s/item) [64.000]
