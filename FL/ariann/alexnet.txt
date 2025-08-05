@@ -1,0 +1,75 @@
+nohup: ignoring input
+Training over 10 epochs
+model:		 alexnet
+dataset:	 cifar10
+batch_size:	 128
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/aiortc/rtcdtlstransport.py:13: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography import x509
+Traceback (most recent call last):
+  File "main.py", line 314, in <module>
+    run(args)
+  File "main.py", line 91, in run
+    train_time = train(args, model, private_train_loader, optimizer, epoch)
+  File "/home/sghoflsazghinan/Desktop/NOW/ariann/procedure.py", line 61, in train
+    loss[0] = forward(optimizer, model, data, target)
+  File "/home/sghoflsazghinan/Desktop/NOW/ariann/procedure.py", line 47, in forward
+    output = model(data)
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/sghoflsazghinan/Desktop/NOW/ariann/models.py", line 164, in forward
+    x = self.conv_base(x)
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/container.py", line 100, in forward
+    input = module(input)
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/torch/nn/modules/pooling.py", line 141, in forward
+    self.return_indices)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/generic/frameworks/hook/hook.py", line 346, in overloaded_func
+    response = handle_func_command(command)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/tensors/interpreters/native.py", line 456, in handle_func_command
+    response = new_type.handle_func_command(new_command)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/tensors/interpreters/autograd.py", line 333, in handle_func_command
+    return cmd(*args_, **kwargs_)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/tensors/interpreters/autograd.py", line 298, in max_pool2d
+    return input.max_pool2d(*args, **kwargs)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/tensors/interpreters/autograd.py", line 179, in method_with_grad
+    result = forward_method(new_self, *new_args, **new_kwargs)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/tensors/interpreters/gradients.py", line 470, in forward
+    return_indices=True,
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/tensors/interpreters/precision.py", line 501, in max_pool2d
+    return torch.nn.functional.max_pool2d(self, *args, **kwargs)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/generic/frameworks/hook/hook.py", line 346, in overloaded_func
+    response = handle_func_command(command)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/tensors/interpreters/precision.py", line 995, in handle_func_command
+    return cmd(*args_, **kwargs_)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/nn/functional.py", line 226, in max_pool2d
+    return_indices=return_indices,
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/nn/functional.py", line 297, in _pool2d
+    return_arity=6,
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/generic/utils.py", line 50, in remote_exec
+    location, *command, return_ids=response_ids, return_value=return_value
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/workers/base.py", line 637, in send_command
+    ret_val = self.send_msg(message, location=recipient)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/workers/base.py", line 335, in send_msg
+    bin_response = self._send_msg(bin_message, location)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/workers/virtual.py", line 12, in _send_msg
+    return location._recv_msg(message)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/workers/virtual.py", line 22, in _recv_msg
+    return self.recv_msg(message)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/workers/base.py", line 416, in recv_msg
+    response = handler.handle(msg)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/generic/abstract/message_handler.py", line 20, in handle
+    return self.routing_table[type(msg)](msg)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/workers/message_handler.py", line 55, in execute_tensor_command
+    return self.execute_computation_action(cmd.action)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/workers/message_handler.py", line 119, in execute_computation_action
+    response = command(*args_, **kwargs_)
+  File "/home/sghoflsazghinan/Desktop/NOW/PySyft-ryffel-0.2.x-fix-training/syft/frameworks/torch/nn/functional.py", line 123, in _pre_pool
+    ((nb_rows_in + 2 * padding[0] - dilation[0] * (nb_rows_kernel - 1) - 1) / stride[0]) + 1
+ZeroDivisionError: division by zero

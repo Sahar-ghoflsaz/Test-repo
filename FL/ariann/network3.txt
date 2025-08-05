@@ -1,0 +1,16 @@
+nohup: ignoring input
+Training over 1 epochs
+model:		 network2
+dataset:	 cifar10
+batch_size:	 128
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+block1-1
+/home/sghoflsazghinan/miniconda3/envs/pysyft/lib/python3.7/site-packages/aiortc/rtcdtlstransport.py:13: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography import x509
+block1-2
+block1-3
+block2
+block3
